@@ -26,10 +26,10 @@ jobs:
       - name: Publish Console App
         if: success()
         run: |
-          dotnet publish -c Release -r win10-x64 --self-contained Louis.Martin.FeatureMatching.Console/Louis.Martin.FeatureMatching.Console.csproj
+          dotnet publish -c Release -r win-x64 --self-contained Louis.Martin.FeatureMatching.Console/Louis.Martin.FeatureMatching.Console.csproj
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: published-app
-          path: ./bin/Release/netcoreapp3.1/win10-x64/publish
+          path: ./bin/Release/netcoreapp3.1/win-x64/publish
