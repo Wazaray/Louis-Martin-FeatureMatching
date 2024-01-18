@@ -1,3 +1,8 @@
+Lien vers mon github : https://github.com/Wazaray/Louis-Martin-FeatureMatching
+
+Je me suis rendu compte à la fin que j'avais bien configuré mes Solutions avec une bonne bonne architecture (tous les projets dans un dossier src, tests etc)
+Mais cette mise en forme n'a pas été faite sur mon fileSystem par oubli...
+
 Pour information sur linux j'ai eu une erreur avec l'import de la librairie sous ubuntu :
 J'ai donc mocké mais laissé ma fonction de base afin que vous puissiez l'évaluer
 
