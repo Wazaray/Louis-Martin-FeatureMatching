@@ -26,7 +26,7 @@ jobs:
       - name: Publish Console App
         if: success()
         run: |
-          dotnet publish -c Release -r win10-x64 --self-contained src/Louis.Martin.FeatureMatching.Console/Louis.Martin.FeatureMatching.Console.csproj
+          dotnet publish -c Release -r win10-x64 --self-contained Louis.Martin.FeatureMatching.Console/Louis.Martin.FeatureMatching.Console.csproj
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
